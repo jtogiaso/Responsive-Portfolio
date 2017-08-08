@@ -198,7 +198,7 @@ footer {
 	border: 1px;
 	border-style: solid;
 	border-color: #dddddd;
-	width: 98%
+	width: 97.5%
 }
 
 .inputPar::placeholder {
@@ -274,4 +274,138 @@ button:hover {
 
 .nth2 {
 	float: right;
+}
+
+/*Mobile Phone Resolution*/
+@media screen and (max-width: 640px) {
+
+	html {
+		width: 634px;
+	}
+	
+	div.namePlate {
+		display: block;
+	}
+
+	ul.siteLegend {
+		position: relative;
+		display: flex;
+		justify-content: space-between;
+		list-style-type: none;
+		padding: 0 25px;
+
+	}
+
+	.mainBody {
+		padding-bottom: 50px;
+	}
+
+	.fullWrapper {
+		width: 100%;
+	}
+
+	.contentWrapper {
+		width: 100%;
+	}
+
+	.asideWrapper {
+		margin-top: 50px;
+		width: auto;
+		display: block;
+		position: relative;
+	}
+
+	.portfolioOptions li{
+		display: block;
+		position: initial;
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.portfolioOptions li a img {
+		width: 100%;
+		height: 100%;
+		display: block;
+		padding: 0;
+		margin: 0;
+	}
+
+	.nth2 {
+		float: none;
+	}
+}
+
+/*Tablet Resolution*/
+@media screen and (min-width: 641px) and (max-width: 768px) {
+
+	html {
+		width: 761px;
+	}
+
+	.mainBody {
+		padding-bottom: 50px;
+	}
+
+	.fullWrapper {
+		width: 100%;
+	}
+
+	.namePlate {
+		margin-left: 50px;
+	}
+
+	.siteLegend{
+		margin-right: 50px;
+	}
+
+	.contentWrapper {
+		width: 100%;
+	}
+
+	.asideWrapper {
+		margin-top: 50px;
+		width: auto;
+		display: block;
+		position: relative;
+	}	
+}
+
+/*Desktop Resolution*/
+@media screen and (min-width: 769px) and (max-width: 980px) {
+
+	html {
+		width: 960px;
+	}
+
+
+	.fullWrapper {
+		width: 100%;
+	}
+
+	.namePlate {
+		margin-left: 50px;
+	}
+
+	.siteLegend{
+		margin-right: 50px;
+	}
+
+	.contentWrapper {
+		width: 60%;
+		display: inline-block;
+	}
+
+	.asideWrapper {
+		width: auto;
+	}
+
+	ul.portfolioOptions li {
+		display: block;
+		float: none;
+	}
+
+	ul.portfolioOptions li img{
+		width: 100%
+	}
+
 }
